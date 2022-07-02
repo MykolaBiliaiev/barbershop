@@ -1,2 +1,0 @@
-# barbershop
-returning to study
