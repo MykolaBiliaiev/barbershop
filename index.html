@@ -12,7 +12,8 @@
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
   />
-    <link rel="stylesheet" href="./СSS/styles.css" />
+    <link rel="stylesheet" href="./css/main.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </head>
 
 <body>
@@ -53,7 +54,7 @@
         </div>
 
         <div class="hero-right">
-            <p class="hero-pre-title pre-title" lang="en">A hair salon for men in Poltava</p>
+            <p class="hero-pre-title pre-title pre-title__color-light" lang="en">A hair salon for men in Poltava</p>
             <h1 class="hero-title section-title" lang="en">Bad Company</h1>
             <p class="hero-after-title after-title">Ми експерти в модних чоловічих зачісках.
                 Працюємо швидко, обережно і зі смаком.</p>
@@ -72,138 +73,138 @@
     </ul>
 
     <div class="about-right-side">
-        <p class="about-pre-title pre-title" id="about">Про нас</p>
+        <p class="about-pre-title pre-title pre-title__color-dark" id="about">Про нас</p>
         <h2 class="about-title section-title"> Кращий Барбершоп твого міста</h2>
         <p class="about-after-title after-title" >Якщо ти хочеш додати в свій образ більше впевненості - тобі точно до нас.</p>
-        <p class="about-title-description" >Мы команда, которая никогда не останавливается на достигнутом 
-            и жаждет перемен. И когда ты попадешь в руки нашего мастера, 
-            то уже никогда не сможешь быть прежним. Мы команда, которая всегда 
-            с клиентами "на одной волне". Поэтому, мы всегда готовы усовершенствовать каждого, кто к нам приходит!</p>
+        <p class="about-title-description" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione aperiam perferendis 
+            inventore, perspiciatis fugiat, beatae enim veniam fuga atque eius tempore laborum dolorem iste illum quidem ex 
+            dolore quaerat repellendus minus reprehenderit. Nam harum a corrupti dolores 
+            voluptatum, praesentium ducimus officia minus adipisci deserunt quasi veritatis quam amet asperiores omnis!</p>
         
         <button class="about-btn btn" type="button" data-modal-open>Онлайн-запис</button>
     </div>
 </div>
 </section>
 
-<!--Prices-->
+<!--Prices  // classes mades with BEM -->
 <section class="prices">
     <div class="container">
-    <p class="prices-pre-title pre-title" id="prices">Проведи час в компанії найкращих майстрів</p>
+    <p class="prices-pre-title pre-title pre-title__color-light" id="prices">Проведи час в компанії найкращих майстрів</p>
     <h2 class="prices-title section-title">Послуги і ціни</h2>
 
-    <div class="prices-list-container">
+    <div class="prices-container">
     <ul class="prices-list prices-list-left list">
-        <li class="prices-item">
-            <p class="prices-item-text  prices-service-name">Чоловіча стрижка</p>
-            <span class="prices-item-text prices-count">від 350 грн</span>
+        <li class="prices-list__item">
+            <p class="prices-list__item-text  prices__service-name">Чоловіча стрижка</p>
+            <span class="prices-list__item-text prices-count">від 350 грн</span>
         </li>
-        <li class="prices-item">
-            <p class="prices-item-text prices-service-name">Стрижка бороди</p>
-            <span class="prices-item-text">від 250 грн</span>
+        <li class="prices-list__item">
+            <p class="prices-list__item-text prices__service-name">Стрижка бороди</p>
+            <span class="prices-list__item-text">від 250 грн</span>
         </li>
-        <li class="prices-item">
-            <p class="prices-item-text prices-service-name">Стрижка вусів</p>
-            <span class="prices-item-text">від 200 грн</span>
+        <li class="prices-list__item">
+            <p class="prices-list__item-text prices__service-name">Стрижка вусів</p>
+            <span class="prices-list__item-text">від 200 грн</span>
         </li>
-        <li class="prices-item">
-            <p class="prices-item-text prices-service-name">Гоління небезпечною бритвою</p>
-            <span class="prices-item-text">від 200 грн</span>
+        <li class="prices-list__item">
+            <p class="prices-list__item-text prices__service-name">Гоління небезпечною бритвою</p>
+            <span class="prices-list__item-text">від 200 грн</span>
         </li>
     </ul>
     <ul class="prices-list prices-list-right list">
-        <li class="prices-item">
-            <p class="prices-item-text prices-service-name">Стрижка у стажера</p>
-            <span class="prices-item-text">від 200 грн</span>
+        <li class="prices-list__item">
+            <p class="prices-list__item-text prices__service-name">Стрижка у стажера</p>
+            <span class="prices-list__item-text">від 200 грн</span>
         </li>
-        <li class="prices-item">
-            <p class="prices-item-text prices-service-name">Стрижка під насадку</p>
-            <span class="prices-item-text">від 200 грн</span>
+        <li class="prices-list__item">
+            <p class="prices-list__item-text prices__service-name">Стрижка під насадку</p>
+            <span class="prices-list__item-text">від 200 грн</span>
         </li>
-        <li class="prices-item"> 
-            <p class="prices-item-text prices-service-name">Дитяча стрижка (до 12 років)</p>
-            <span class="prices-item-text">від 300 грн</span>
+        <li class="prices-list__item"> 
+            <p class="prices-list__item-text prices__service-name">Дитяча стрижка (до 12 років)</p>
+            <span class="prices-list__item-text">від 300 грн</span>
         </li>
-        <li class="prices-item">
-            <p class="prices-item-text prices-service-name">Камуфлювання сідини</p>
-            <span class="prices-item-text">від 200 грн</span>
+        <li class="prices-list__item">
+            <p class="prices-list__item-text prices__service-name">Камуфлювання сідини</p>
+            <span class="prices-list__item-text">від 200 грн</span>
         </li>
     </ul>
 </div>
-    <button class="prices-btn btn" type="button" data-modal-open>Онлайн-запис</button>
+    <button class="prices__btn btn" type="button" data-modal-open>Онлайн-запис</button>
 </div>
 </section>
 
-<!--Reasons-->
+<!--Reasons  // classes mades with BEM -->
 <section class="reasons">
     <div class="container reasons-container">
-    <div class="reasons-left">
+    <div class="reasons__left">
     <ul class="reasons-list list"> 
-        <li class="reasons-item">
-            <span class="reasons-count">50</span>
-            <p class="reasons-item-text">задоволених клієнтів щодня</p>
+        <li class="reasons-list__item">
+            <span class="reasons-list__value">50</span>
+            <p class="reasons-list__text">задоволених клієнтів щодня</p>
         </li>
-        <li class="reasons-item">
-            <span class="reasons-count">5</span>
-            <p class="reasons-item-text">нагород за чудовий сервіс</p>
+        <li class="reasons-list__item">
+            <span class="reasons-list__value">5</span>
+            <p class="reasons-list__text">нагород за чудовий сервіс</p>
         </li>
-        <li class="reasons-item">
-            <span class="reasons-count">6</span>
-            <p class="reasons-item-text">кращих майстрів Полтави</p>
+        <li class="reasons-list__item">
+            <span class="reasons-list__value">6</span>
+            <p class="reasons-list__text">кращих майстрів Полтави</p>
         </li>
-        <li class="reasons-item">
-            <span class="reasons-count">100</span>
-            <p class="reasons-item-text">подарунків постійним клієнтам</p>
+        <li class="reasons-list__item">
+            <span class="reasons-list__value">100</span>
+            <p class="reasons-list__text">подарунків постійним клієнтам</p>
         </li>
     </ul>
 </div>
 
-    <div class="reasons-right-side">
-        <p class="reasons-pre-title pre-title">Cтара традиційна школа</p>
-        <h2 class="reasons-title section-title">Чому приходять саме до нас?</h2>
-        <p class="reasons-after-title after-title">Про нас говорять тільки найкраще. Але, звісно ж, краще один раз переконатися самому ніж 10 разів прочитати!</p>
+    <div class="reasons__right">
+        <p class="reasons__pre-title pre-title pre-title__color-dark">Cтара традиційна школа</p>
+        <h2 class="reasons__title section-title">Чому приходять саме до нас?</h2>
+        <p class="reasons__after-title after-title">Про нас говорять тільки найкраще. Але, звісно ж, краще один раз переконатися самому ніж 10 разів прочитати!</p>
     </div>
 </div>
 </section>
 
-<!--Our masters-->
+<!-- Our masters // classes mades with BEM -->
 <section class="masters">
     <div class="container">
-    <p class="masters-pre-title pre-title" id="masters">Для справжніх поціновувачів атмосфери</p>
-    <h2 class="masters-title section-title">Наші майстри</h2>
-    <ul class="masters-list list">
-      <li class="masters-item">
-        <div class="masters-img-wrap">
+    <p class="masters__pre-title pre-title pre-title__color-dark" id="masters">Для справжніх поціновувачів атмосфери</p>
+    <h2 class="masters__title section-title">Наші майстри</h2>
+    <ul class="masters__list list">
+      <li class="masters-list__item">
+        <div class="masters-list__img-wrap">
         <img src="./img/artist_img_1.jpg" alt="Барбер бед компані" width="370">
-        <p class="masters-overlay-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis ipsa voluptate soluta et! Temporibus magnam ab voluptatum obcaecati! Veniam, ratione. Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, eius tempore minus a obcaecati provident adipisci maiores veniam delectus sit hic laboriosam unde, voluptas commodi explicabo id laudantium. Dicta, repellat!</p>    
+        <p class="masters-list__overlay-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis ipsa voluptate soluta et! Temporibus magnam ab voluptatum obcaecati! Veniam, ratione. Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, eius tempore minus a obcaecati provident adipisci maiores veniam delectus sit hic laboriosam unde, voluptas commodi explicabo id laudantium. Dicta, repellat!</p>    
         </div>
-        <div class="masters-item-text">
-        <h3 class="masters-name" lang="en">John Smith</h3>
-            <p class="masters-description" lang="en">Extreme Barber</p>
-            <ul class="master-social-media-list list">
-                <li class="master-social-item"> 
-                    <a href="" class="master-social-link">
-                        <svg class="master-social-icon" width="20px" height="20">
+        <div class="masters-list__item-text">
+        <h3 class="masters-list__item-name" lang="en">John Smith</h3>
+            <p class="masters-list__item-description" lang="en">Extreme Barber</p>
+            <ul class="socials list">
+                <li class="socials__item"> 
+                    <a href="" class="socials__link">
+                        <svg class="socials__icon" width="20px" height="20">
                             <use href="./img/icons.svg#icon-instagram"></use>
                         </svg>
                     </a>
                 </li>
-                <li class="master-social-item"> 
-                    <a href="" class="master-social-link">
-                        <svg class="master-social-icon" width="20px" height="20">
+                <li class="socials__item"> 
+                    <a href="" class="socials__link">
+                        <svg class="socials__icon" width="20px" height="20">
                             <use href="./img/icons.svg#icon-twitter"></use>
                         </svg>
                     </a>
                 </li>
-                <li class="master-social-item"> 
-                    <a href="" class="master-social-link">
-                        <svg class="master-social-icon" width="20px" height="20">
+                <li class="socials__item"> 
+                    <a href="" class="socials__link">
+                        <svg class="socials__icon" width="20px" height="20">
                             <use href="./img/icons.svg#icon-facebook"></use>
                         </svg>
                     </a>
                 </li>
-                <li class="master-social-item"> 
-                    <a href="" class="master-social-link">
-                        <svg class="master-social-icon" width="20px" height="20">
+                <li class="socials__item"> 
+                    <a href="" class="socials__link">
+                        <svg class="socials__icon" width="20px" height="20">
                             <use href="./img/icons.svg#icon-linkedin"></use>
                         </svg>
                     </a>
@@ -211,39 +212,39 @@
             </ul>
         </div>
       </li>
-      <li class="masters-item">
-        <div class="masters-img-wrap">
+      <li class="masters-list__item">
+        <div class="masters-list__img-wrap">
         <img src="./img/artist_img_2.jpg" alt="Барбер бед компані Петро" width="370">
-        <p class="masters-overlay-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis ipsa voluptate soluta et! Temporibus magnam ab voluptatum obcaecati! Veniam, ratione. Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, eius tempore minus a obcaecati provident adipisci maiores veniam delectus sit hic laboriosam unde, voluptas commodi explicabo id laudantium. Dicta, repellat!</p> 
+        <p class="masters-list__overlay-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis ipsa voluptate soluta et! Temporibus magnam ab voluptatum obcaecati! Veniam, ratione. Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, eius tempore minus a obcaecati provident adipisci maiores veniam delectus sit hic laboriosam unde, voluptas commodi explicabo id laudantium. Dicta, repellat!</p> 
         </div>
-        <div class="masters-item-text">    
-        <h3 class="masters-name" lang="en">Michele Doe</h3>
-            <p class="masters-description" lang="en">Extreme Barber</p>
-            <ul class="master-social-media-list list">
-                <li class="master-social-item"> 
-                    <a href="" class="master-social-link">
-                        <svg class="master-social-icon" width="20px" height="20">
+        <div class="masters-list__item-text">    
+        <h3 class="masters-list__item-name" lang="en">Michele Doe</h3>
+            <p class="masters-list__item-description" lang="en">Extreme Barber</p>
+            <ul class="socials list">
+                <li class="socials__item"> 
+                    <a href="" class="socials__link">
+                        <svg class="socials__icon" width="20px" height="20">
                             <use href="./img/icons.svg#icon-instagram"></use>
                         </svg>
                     </a>
                 </li>
-                <li class="master-social-item"> 
-                    <a href="" class="master-social-link">
-                        <svg class="master-social-icon" width="20px" height="20">
+                <li class="socials__item"> 
+                    <a href="" class="socials__link">
+                        <svg class="socials__icon" width="20px" height="20">
                             <use href="./img/icons.svg#icon-twitter"></use>
                         </svg>
                     </a>
                 </li>
-                <li class="master-social-item"> 
-                    <a href="" class="master-social-link">
-                        <svg class="master-social-icon" width="20px" height="20">
+                <li class="socials__item"> 
+                    <a href="" class="socials__link">
+                        <svg class="socials__icon" width="20px" height="20">
                             <use href="./img/icons.svg#icon-facebook"></use>
                         </svg>
                     </a>
                 </li>
-                <li class="master-social-item"> 
-                    <a href="" class="master-social-link">
-                        <svg class="master-social-icon" width="20px" height="20">
+                <li class="socials__item"> 
+                    <a href="" class="socials__link">
+                        <svg class="socials__icon" width="20px" height="20">
                             <use href="./img/icons.svg#icon-linkedin"></use>
                         </svg>
                     </a>
@@ -251,39 +252,39 @@
             </ul>
         </div>
       </li>
-      <li class="masters-item">
-        <div class="masters-img-wrap">
+      <li class="masters-list__item">
+        <div class="masters-list__img-wrap">
         <img src="./img/artist_img_3.jpg" alt="Барбер бед компані Степан" width="370">
-        <p class="masters-overlay-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis ipsa voluptate soluta et! Temporibus magnam ab voluptatum obcaecati! Veniam, ratione. Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, eius tempore minus a obcaecati provident adipisci maiores veniam delectus sit hic laboriosam unde, voluptas commodi explicabo id laudantium. Dicta, repellat!</p> 
+        <p class="masters-list__overlay-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis ipsa voluptate soluta et! Temporibus magnam ab voluptatum obcaecati! Veniam, ratione. Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, eius tempore minus a obcaecati provident adipisci maiores veniam delectus sit hic laboriosam unde, voluptas commodi explicabo id laudantium. Dicta, repellat!</p> 
         </div>
-        <div class="masters-item-text">        
-        <h3 class="masters-name" lang="en">Alan Black</h3>
-            <p class="masters-description" lang="en">Extreme Barber</p>
-            <ul class="master-social-media-list list">
-                <li class="master-social-item"> 
-                    <a href="" class="master-social-link">
-                        <svg class="master-social-icon" width="20px" height="20">
+        <div class="masters-list__item-text">        
+        <h3 class="masters-list__item-name" lang="en">Alan Black</h3>
+            <p class="masters-list__item-description" lang="en">Extreme Barber</p>
+            <ul class="socials list">
+                <li class="socials__item"> 
+                    <a href="" class="socials__link">
+                        <svg class="socials__icon" width="20px" height="20">
                             <use href="./img/icons.svg#icon-instagram"></use>
                         </svg>
                     </a>
                 </li>
-                <li class="master-social-item"> 
-                    <a href="" class="master-social-link">
-                        <svg class="master-social-icon" width="20px" height="20">
+                <li class="socials__item"> 
+                    <a href="" class="socials__link">
+                        <svg class="socials__icon" width="20px" height="20">
                             <use href="./img/icons.svg#icon-twitter"></use>
                         </svg>
                     </a>
                 </li>
-                <li class="master-social-item"> 
-                    <a href="" class="master-social-link">
-                        <svg class="master-social-icon" width="20px" height="20">
+                <li class="socials__item"> 
+                    <a href="" class="socials__link">
+                        <svg class="socials__icon" width="20px" height="20">
                             <use href="./img/icons.svg#icon-facebook"></use>
                         </svg>
                     </a>
                 </li>
-                <li class="master-social-item"> 
-                    <a href="" class="master-social-link">
-                        <svg class="master-social-icon" width="20px" height="20">
+                <li class="socials__item"> 
+                    <a href="" class="socials__link">
+                        <svg class="socials__icon" width="20px" height="20">
                             <use href="./img/icons.svg#icon-linkedin"></use>
                         </svg>
                     </a>
@@ -298,7 +299,7 @@
 <!--Gallery-->
 <section class="gallery">
     <div class="container">
-    <p class="gallery-pre-title pre-title">з латинської мови "барба" означає "борода"</p>
+    <p class="gallery-pre-title pre-title pre-title__color-dark">з латинської мови "барба" означає "борода"</p>
     <h2 class="visually-hidden">Галерея</h2>
     <ul class="gallery-list list">
         <li class="gallery-item">
@@ -342,10 +343,10 @@
     <ul class="contacts-list list">
         <li class="contacts-item">
             <a class="contacts-link link" href="https://goo.gl/maps/gan3Ays6RUpgexFb8" target="_blank" rel="noopener">
-            ул. Васильківська, 7А Київ, 08132</a>
+                вул. Гоголя, 27, Полтава, 36000</a>
         </li>
         <li class="contacts-item">
-            <a class="contacts-link link" href="tel:+380955325359">+380955325359</a>
+            <a class="contacts-link link" href="tel:+380955325359">+380955555555</a>
         </li>
         <li class="contacts-item">
             <a class="contacts-link" href="mailto:barbershop@email.com">barbershop@email.com</a>
@@ -366,7 +367,7 @@
     <div class="container footer-container">
     <p class="footer-copy">&copy; Copyright 2022</p>
     <ul class="footer-list list">
-        <li class="footer-item footer-first-item"><a class="footer-link link" href="">Instagram</a></li>
+        <li class="footer-item"><a class="footer-link link" href="">Instagram</a></li>
         <li class="footer-item"><a class="footer-link link" href="">YouTube</a></li>
     </ul>
     </div>
